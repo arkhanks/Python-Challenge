@@ -1,4 +1,5 @@
 # -*- coding: UTF-8 -*-
+"""PyPoll Homework."""
 
 # Import necessary modules
 import csv
@@ -6,7 +7,7 @@ from pathlib import Path
 
 # Files to load and output 
 file_to_load = Path(r"C:\Users\arkha\OneDrive\Desktop\Analysis Projects\Module 3 Challenge - Python\Python-Challenge\PyPoll\Resource\election_data.csv")  
-file_to_output = Path(r"C:\Users\arkha\OneDrive\Desktop\Analysis Projects\Module 3 Challenge - Python\Python-Challenge\PyPoll\Analysis\.gitkeep") 
+file_to_output = Path(r"C:\Users\arkha\OneDrive\Desktop\Analysis Projects\Module 3 Challenge - Python\Python-Challenge\PyPoll\Analysis\PyPoll.gitkeep") 
 
 # Initialize variables to track the election data
 total_votes = 0  # Track the total number of votes cast
